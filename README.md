@@ -49,7 +49,6 @@ Enable APIs by clicking on API & Services on the console and click enable, which
 
 ![image](https://user-images.githubusercontent.com/16366387/120934886-09c1ad00-c6b5-11eb-998a-4a1dee0d3a78.png)
 
-
 ## Dataset
 
 There are a few ways you can source image data for free or low-cost
@@ -74,6 +73,8 @@ For this section you will need to do two things: (1) Create an Azure account and
 
 ![image](https://user-images.githubusercontent.com/16366387/120934797-9b7cea80-c6b4-11eb-8c14-3a2858bd9cba.png)
 
+
+You can either create a Google Cloud Storage bucket or download the data as a zip file and upload it when we start building the model which will give you the option to create the cloud storage bucket then.
 
 
 ## Training, modeling, evaluating, and exporting TensorFlow model
