@@ -1,6 +1,6 @@
 # capstone_498_group_project
 
-##Overview
+## Overview
 
 ![image](https://user-images.githubusercontent.com/16366387/120933069-530dfe80-c6ad-11eb-8e74-93a5939797fb.png)
 ![image](https://user-images.githubusercontent.com/16366387/120933089-64570b00-c6ad-11eb-809d-687cc4bbced1.png)
