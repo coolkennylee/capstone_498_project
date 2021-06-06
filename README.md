@@ -99,6 +99,16 @@ When designing your cloud storage, make sure to enable multi-region -> default s
 
 ![image](https://user-images.githubusercontent.com/16366387/120935897-c61d7200-c6b9-11eb-942a-0c97e35c48e0.png)
 
+Import images from your bucket and click images once importing is complete. Make sure the images are labeled accordingly with the appropriate lables: 'no_mask' and 'yes_mask'
+
+![image](https://user-images.githubusercontent.com/16366387/120936467-bf442e80-c6bc-11eb-8fc5-5ee8d6a57e5b.png)
+
+Next, click train
+
+When the model is complete, you can 
+
+![image](https://user-images.githubusercontent.com/16366387/120936497-eb5faf80-c6bc-11eb-8266-58450ba26993.png)
+
 
 ## App development
 
