@@ -78,10 +78,12 @@ You can either create a Google Cloud Storage bucket or download the data as a zi
 
 You can type the following in the CloudShell command line to create a new cloud storage bucket or wait until the next step.
 
-``` gsutil mb -p $PROJECT_ID \ 
+``` 
+gsutil mb -p $PROJECT_ID \ 
    -c standard    \
    -l us-central1 \
    gs://$PROJECT_ID-vcm/ 
+   
 ```
 
 ## Training, modeling, evaluating, and exporting TensorFlow model
