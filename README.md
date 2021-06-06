@@ -118,25 +118,25 @@ Next, click train and do the following:
 ![image](https://user-images.githubusercontent.com/16366387/120938268-bbb5a500-c6c6-11eb-9081-65c0444c9f64.png)
 
 
-Once you click train, it's now just a waiting game until the training is complete. You can keep track of the status of your model in the models tab which will indicate whether the model is still training, errored or finished. 
+Once you click train, it's now just a waiting game until the training is complete. You can keep track of the status of your model in the models tab which will indicate whether the model is still training, errored or finished. You should be able to review the model results and you may retrain the model if you need to make tweaks to your model.
 
 ![image](https://user-images.githubusercontent.com/16366387/120936497-eb5faf80-c6bc-11eb-8266-58450ba26993.png)
+
 
 After the training is compelte, you will need to export the deep learning model by clicking TensorFlow.js. You will need this file to include in your app portfolio.
 
 
 ![image](https://user-images.githubusercontent.com/16366387/120938295-d12acf00-c6c6-11eb-96a2-517965531218.png)
 
-
-
-
-![image](https://user-images.githubusercontent.com/16366387/120937611-5613e980-c6c3-11eb-86ab-76b41fef67c1.png)
-
-
-
 ## App development
 
-Creating an index.html and index.js file
+Creating an index.html and index.js file.
+
+Utilize the index.html and index.js file in the github folders. One important feature to note is making sure in the .js file that the following function reflects the approriate startPredicting() and stopPredicting() functions. This particular function will output the key results that will determine the probably of whether the person has a mask or not in real time.
+``` 
+document.getElementById("predictions-mask").innerText=result['0']['label']+": "+Math.round(result['0']['prob']*100)+"%";
+ document.getElementById("predictions-no-mask").innerText=result['1']['label']+": "+Math.round(result['1']['prob']*100)+"%";
+```
 
 ## Hosting the application on GCP
 
