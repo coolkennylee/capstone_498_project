@@ -1,2 +1,2 @@
-no_mask
-yes_mask
+Mask
+No Mask

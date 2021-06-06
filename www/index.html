@@ -4,7 +4,7 @@
 <script src="https://unpkg.com/@tensorflow/tfjs-automl"></script>
 <style>
 body {
-      background: #F4F6F7 url('bgground.png') no-repeat;
+      background: #F4F6F7 url('wallpaper.png') no-repeat;
 	    margin-right: 200px;
 		background-size:cover;
 		
@@ -13,7 +13,7 @@ body {
 </style>
 </head>
 
-<!-- <script>
+<script>
 async function run() {
   const model = await tf.automl.loadImageClassification('model.json');
   const image = document.getElementById('daisy');
@@ -26,7 +26,7 @@ async function run() {
 }
 run();
 </script>
- -->
+
 
 <body >
 	<div id="console"></div>
@@ -35,16 +35,16 @@ run();
 	<video autoplay playsinline muted id="webcam" width="500" height="500" style="position:absolute;margin-top:10%"></video>
 	
 	
-	<div id="predictions-mask" style="position:absolute;margin-top:28%;left:40%;font-family:Comic Sans MS, cursive, sans-serif; font-size:28px;background-color:#F4D03F"></div>
-	<div id="predictions-no-mask" style="position:absolute;margin-top:28%;left:52%;font-family:Comic Sans MS, cursive, sans-serif; font-size:28px;background-color:#F4D03F"></div>
+	<div id="predictions-mask" style="position:absolute;margin-top:28%;left:40%;font-family:Arial, cursive, sans-serif; font-size:28px;background-color:#F4D03F"></div>
+	<div id="predictions-no-mask" style="position:absolute;margin-top:28%;left:52%;font-family:Arial, cursive, sans-serif; font-size:28px;background-color:#F4D03F"></div>
 	
 	</center>
 	<center>
 
 	
 	
-	<button type="button" id="startPredicting" style="position:absolute;width:400px;left:22%;margin-top:35%;background-color:#239B56; font-size:32px; padding: 32px 16px; border-radius: 20px; border: 3px solid #17202A" onclick="startPredicting()" >Start</button>
-	<button type="button" id="stopPredicting" style="position:absolute;width:400px;left:52%;margin-top:35%;background-color:#f44336; font-size:32px; padding: 32px 16px; border-radius: 20px; border: 3px solid #17202A" onclick="stopPredicting()" >Stop</button>
+	<button type="button" id="startPredicting" style="position:absolute;width:300px;left:22%;margin-top:35%;background-color:#239B56; font-size:32px; padding: 32px 16px; border-radius: 20px; border: 3px solid #17202A" onclick="startPredicting()" >Check me!</button>
+	<button type="button" id="stopPredicting" style="position:absolute;width:300px;left:62%;margin-top:35%;background-color:#f44336; font-size:32px; padding: 32px 16px; border-radius: 20px; border: 3px solid #17202A" onclick="stopPredicting()" >Stop it!</button>
 	<script src= "index.js"></script>
 </center>
 </body>
