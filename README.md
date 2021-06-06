@@ -83,7 +83,6 @@ gsutil mb -p $PROJECT_ID \
    -c standard    \
    -l us-central1 \
    gs://$PROJECT_ID-vcm/ 
-   
 ```
 
 ## Training, modeling, evaluating, and exporting TensorFlow model
