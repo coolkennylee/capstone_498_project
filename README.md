@@ -28,6 +28,11 @@ In this tutorial, we will help fellow students and colleagues learn how to build
 
 ## Configuring GCP
 
+First, you need to make sure you have a seperate project available for this application. Click on create new project.
+![image](https://user-images.githubusercontent.com/16366387/120933681-07108900-c6b0-11eb-9b20-c5926ab0e098.png)
+
+
+
 ## Enabling Required APIs
 
 ## Dataset
