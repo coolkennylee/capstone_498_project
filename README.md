@@ -6,7 +6,7 @@ In this tutorial, we will help fellow students and colleagues learn how to build
 
 (1) Setting up Google Cloud Platform and setting up a project
 
-(2) Enabling required APIs such as: Google Vision API, App Engine, TensorFlow, Cloud Build, and Stackdriver
+(2) Enabling required APIs such as: AutoML Vision API, App Engine, Cloud Build, and Stackdriver
 
 (3) How to source/create datasets 
 
@@ -29,11 +29,24 @@ In this tutorial, we will help fellow students and colleagues learn how to build
 ## Configuring GCP
 
 First, you need to make sure you have a seperate project available for this application. Click on create new project.
+
 ![image](https://user-images.githubusercontent.com/16366387/120933681-07108900-c6b0-11eb-9b20-c5926ab0e098.png)
 
 
-
 ## Enabling Required APIs
+
+Enable APIs by clicking on API & Services on the console and click enable, which will take you to a search engine. Type each API accordingly and click enable API.
+
+(1) AutoML Vision
+
+(2) App Engine + App Engine Admin API
+
+(3) Cloud Build
+
+(4) Stackdriver API
+
+![image](https://user-images.githubusercontent.com/16366387/120934165-0ed12d00-c6b2-11eb-8c33-1651c3e7d650.png)
+
 
 ## Dataset
 
