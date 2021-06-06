@@ -132,11 +132,14 @@ After the training is compelte, you will need to export the deep learning model 
 
 Creating an index.html and index.js file.
 
-Utilize the index.html and index.js file in the github folders. One important feature to note is making sure in the .js file that the following function reflects the approriate startPredicting() and stopPredicting() functions. This particular function will output the key results that will determine the probably of whether the person has a mask or not in real time.
+Utilize the index.html and index.js file in the github folders as a template for what the visuals should reflect. 
+
+One important feature to note is making sure in the .js file that the following function reflects the approriate startPredicting() and stopPredicting() functions. This particular function will output the key results that will determine the probably of whether the person has a mask or not in real time.
 ``` 
 document.getElementById("predictions-mask").innerText=result['0']['label']+": "+Math.round(result['0']['prob']*100)+"%";
  document.getElementById("predictions-no-mask").innerText=result['1']['label']+": "+Math.round(result['1']['prob']*100)+"%";
 ```
+![image](https://user-images.githubusercontent.com/16366387/120939953-73e74b80-c6cf-11eb-82f0-6cdb327b5f55.png)
 
 ## Hosting the application on GCP
 
