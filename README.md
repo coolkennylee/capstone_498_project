@@ -139,7 +139,7 @@ One important feature to note is making sure in the .js file that the following 
 document.getElementById("predictions-mask").innerText=result['0']['label']+": "+Math.round(result['0']['prob']*100)+"%";
  document.getElementById("predictions-no-mask").innerText=result['1']['label']+": "+Math.round(result['1']['prob']*100)+"%";
 ```
-![image](https://user-images.githubusercontent.com/16366387/120939953-73e74b80-c6cf-11eb-82f0-6cdb327b5f55.png)
+![image](https://user-images.githubusercontent.com/16366387/120939973-96796480-c6cf-11eb-89e9-5cd14f24a7d3.png)
 
 ## Hosting the application on GCP
 
