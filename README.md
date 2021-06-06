@@ -12,10 +12,16 @@ In this tutorial, we will help fellow students and colleagues learn how to build
 ## Steps we will cover in this tutorial
 
 (1) Setting up Google Cloud Platform and setting up a project
+
 (2) Enabling required APIs such as: Google Vision API, App Engine, TensorFlow, Cloud Build, and Stackdriver
+
 (3) How to source/create datasets 
+
 (4) Training, evaluating and exporting the model
+
 (5) Building the application
+
 (6) Deploying the application
+
 (7) Implementing DevOps to implement automated, seamless CI/CD process
 
