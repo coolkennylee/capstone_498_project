@@ -169,7 +169,7 @@ After, go back to cloud shell and execute the following code to enable Google Ap
 
 ![image](https://user-images.githubusercontent.com/16366387/120940180-df7de880-c6d0-11eb-8195-c251784f8639.png)
 
-Copy and paste the web link in a browser and it should take you to the application. Wait a few moments for the camera to turn on (may need to approve and enable webcam on your browser).
+Copy and paste the web link in a browser and it should take you to the application. Click the green button and wait a few moments for the camera to turn on (may need to approve and enable webcam on your browser).
 
 ![image](https://user-images.githubusercontent.com/16366387/120940297-68951f80-c6d1-11eb-90e2-c5140562d04b.png)
 
@@ -177,11 +177,20 @@ Copy and paste the web link in a browser and it should take you to the applicati
 
 ## CI/CD
 
-Stackdriver
+Enable the Stackdriver API from Google's API and service search bar. You should be able to monitor and log your app activities. It's highly recommended to implement alerts/triggers on stackdriver to notify adminstrators on any downtime time of the application or sudden increase in traffic.
 
-Cloud Build
+![image](https://user-images.githubusercontent.com/16366387/120940497-6d0e0800-c6d2-11eb-9141-a34e7dd98bd6.png)
+
+![image](https://user-images.githubusercontent.com/16366387/120940512-7e571480-c6d2-11eb-9181-617cf1e6f08d.png)
 
 
+Set up Cloud Build to auto deploy to your application when you make any changes on Github. Make sure to connect repository and select source and go through the authentication process to import and mirror the target GitHub repo you plan to ingest into Cloud Build.
+
+![image](https://user-images.githubusercontent.com/16366387/120940726-882d4780-c6d3-11eb-9c37-029add9c4f86.png)
+
+## Conclusion
+
+Thanks for checking out my project and I hope you're able to build your vision app that detects if you're wearing a mask or not! 
 
 
 
