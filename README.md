@@ -103,7 +103,10 @@ Import images from your bucket and click images once importing is complete. Make
 
 ![image](https://user-images.githubusercontent.com/16366387/120936467-bf442e80-c6bc-11eb-8fc5-5ee8d6a57e5b.png)
 
-Next, click train
+Next, click train and do the following: (1) Give the model a name, (2) select Edge, so you can download the model offline which we will later put into our web app, (3) best trade-off, (4) set the number of nodes (3 - recommended, more if you'd like to train it faster which will cost more money).
+
+![image](https://user-images.githubusercontent.com/16366387/120938132-3b8f3f80-c6c6-11eb-81cb-14098b78e740.png)
+
 
 When the model is complete, you can 
 
