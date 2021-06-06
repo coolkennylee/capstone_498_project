@@ -26,3 +26,29 @@ In this tutorial, we will help fellow students and colleagues learn how to build
 ![image](https://user-images.githubusercontent.com/16366387/120933094-6a4cec00-c6ad-11eb-939b-15b17e63a83c.png)
 ![image](https://user-images.githubusercontent.com/16366387/120933104-720c9080-c6ad-11eb-8a63-e992b2072dbc.png)
 
+## Configuring GCP
+
+## Enabling Required APIs
+
+## Dataset
+
+## Training, modeling, evaluating, and exporting TensorFlow model
+
+## App development
+
+Creating an index.html and index.js file
+
+## Hosting the application on GCP
+
+Using CloudShell to import app files and deploying GCP App Engine
+
+## CI/CD
+
+Stackdriver
+
+Cloud Build
+
+
+
+
+
