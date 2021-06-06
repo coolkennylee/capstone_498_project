@@ -54,16 +54,21 @@ There are a few ways you can source image data for free or low-cost
 
 (1) Existing, open-source github repos
     
-* Bullet list
-* Nested bullet
-* Sub-nested bullet etc
-    * Bullet list item 2
+* https://github.com/chandrikadeb7/Face-Mask-Detection/tree/master/dataset
+* https://github.com/topics/mask-detection-dataset
+
 
 (2) Kaggle practice dataset
 
+* https://www.kaggle.com/omkargurav/face-mask-dataset
+* https://www.kaggle.com/andrewmvd/face-mask-detection
+
 (3) Bing image search API via
 
+For this section you will need to do two things: (1) Create an Azure account and enable Bing's Image Search API and obtain the API key.
 
+* You can create your account and enable/obtain your API key in this link: https://www.microsoft.com/en-us/bing/apis/bing-image-search-api
+* Build a search python script, which is included in this github repo in the 
 
 
 ## Training, modeling, evaluating, and exporting TensorFlow model
