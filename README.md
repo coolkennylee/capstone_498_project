@@ -53,7 +53,12 @@ Enable APIs by clicking on API & Services on the console and click enable, which
 There are a few ways you can source image data for free or low-cost
 
 (1) Existing, open-source github repos
-    * Bullet list
+    
+    * Bullet List
+      * Nested bullet
+         * Sub-nested bullet
+         
+    *Bullet 2
 
 (2) Kaggle practice dataset
 
