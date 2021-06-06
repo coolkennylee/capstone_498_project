@@ -95,6 +95,9 @@ You can either upload the zipped/unzipped dataset or if you already ingested the
 
 ![image](https://user-images.githubusercontent.com/16366387/120935788-4db6b100-c6b9-11eb-840b-a170d0d0eea8.png)
 
+When designing your cloud storage, make sure to enable multi-region -> default storage class as 'standard', uniform access control, google-managed encryption key, and click create bucket (should take a several minutes depending on how many images you're uploading or sourcing).
+
+![image](https://user-images.githubusercontent.com/16366387/120935897-c61d7200-c6b9-11eb-942a-0c97e35c48e0.png)
 
 
 ## App development
