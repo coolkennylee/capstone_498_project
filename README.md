@@ -143,7 +143,33 @@ document.getElementById("predictions-mask").innerText=result['0']['label']+": "+
 
 ## Hosting the application on GCP
 
-Using CloudShell to import app files and deploying GCP App Engine
+Aggregate your files into one folder. You can name it www or whatever suits the best for you. Next, create an app.yaml file and make sure the following code reflects the following
+
+``` runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: www/index.html
+  upload: www/index.html
+
+- url: /(.*)
+  static_files: www/\1
+  upload: www/(.*)
+  ```
+  
+Save the file and upload your file to cloud shell editor. The left side panel should reflect the following files:
+
+![image](https://user-images.githubusercontent.com/16366387/120940098-4a7aef80-c6d0-11eb-85d4-b78d32f46134.png)
+
+After, go back to cloud shell and execute the following code to enable Google App Engine and to deploy the app to a webpoint.
+
+![image](https://user-images.githubusercontent.com/16366387/120940154-b8271b80-c6d0-11eb-9ae3-4f00d0d2c095.png)
+
+
+
+
 
 ## CI/CD
 
