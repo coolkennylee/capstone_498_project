@@ -69,7 +69,7 @@ For this section you will need to do two things: (1) Create an Azure account and
 
 * You can create your account and enable/obtain your API key in this link: https://www.microsoft.com/en-us/bing/apis/bing-image-search-api
 * Build a search python script, which is included in this github repo in the search_image.py file. You will need to make adjustments to the file and add your own API key, search parameters and the URL reflects the latest version of bing's image search API.
-* 
+
 ![image](https://user-images.githubusercontent.com/16366387/120934797-9b7cea80-c6b4-11eb-8c14-3a2858bd9cba.png)
 
 
