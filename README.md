@@ -167,7 +167,11 @@ After, go back to cloud shell and execute the following code to enable Google Ap
 
 ![image](https://user-images.githubusercontent.com/16366387/120940154-b8271b80-c6d0-11eb-9ae3-4f00d0d2c095.png)
 
+![image](https://user-images.githubusercontent.com/16366387/120940180-df7de880-c6d0-11eb-8195-c251784f8639.png)
 
+Copy and paste the web link in a browser and it should take you to the application. Wait a few moments for the camera to turn on (may need to approve and enable webcam on your browser).
+
+![image](https://user-images.githubusercontent.com/16366387/120940297-68951f80-c6d1-11eb-90e2-c5140562d04b.png)
 
 
 
