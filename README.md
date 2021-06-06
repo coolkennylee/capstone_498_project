@@ -50,6 +50,15 @@ Enable APIs by clicking on API & Services on the console and click enable, which
 
 ## Dataset
 
+There are a few ways you can source image data for free or low-cost
+
+(1) Existing, open-source github repos 
+
+(2) Kaggle practice dataset
+
+(3) Bing image search API via
+
+
 ## Training, modeling, evaluating, and exporting TensorFlow model
 
 ## App development
