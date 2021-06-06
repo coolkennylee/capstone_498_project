@@ -87,6 +87,16 @@ gsutil mb -p $PROJECT_ID \
 
 ## Training, modeling, evaluating, and exporting TensorFlow model
 
+In your GCP console, find the AutoML Vision and click on dataset. Next, click on multi-label classification and give your dataset a name to reference during trianing.
+
+![image](https://user-images.githubusercontent.com/16366387/120935781-3f689500-c6b9-11eb-915b-ac1fc18a1fe0.png)
+
+You can either upload the zipped/unzipped dataset or if you already ingested the data into Google Cloud Storage, then you can select the file destination through the browse function.
+
+![image](https://user-images.githubusercontent.com/16366387/120935788-4db6b100-c6b9-11eb-840b-a170d0d0eea8.png)
+
+
+
 ## App development
 
 Creating an index.html and index.js file
