@@ -21,7 +21,7 @@ In this tutorial, we will help fellow students and colleagues learn how to build
 
 ## Summary of the project & strategy
 
-![image](https://user-images.githubusercontent.com/16366387/120933218-f8c16d80-c6ad-11eb-8748-f89a2c4ab984.png)
+![image](https://user-images.githubusercontent.com/16366387/120937709-ce7aaa80-c6c3-11eb-990d-c05cf64e40ea.png)
 ![image](https://user-images.githubusercontent.com/16366387/120933089-64570b00-c6ad-11eb-809d-687cc4bbced1.png)
 ![image](https://user-images.githubusercontent.com/16366387/120933094-6a4cec00-c6ad-11eb-939b-15b17e63a83c.png)
 ![image](https://user-images.githubusercontent.com/16366387/120933104-720c9080-c6ad-11eb-8a63-e992b2072dbc.png)
