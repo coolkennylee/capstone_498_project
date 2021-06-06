@@ -54,10 +54,10 @@ There are a few ways you can source image data for free or low-cost
 
 (1) Existing, open-source github repos
     
-Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+* Bullet list
+* Nested bullet
+* Sub-nested bullet etc
+    * Bullet list item 2
 
 (2) Kaggle practice dataset
 
