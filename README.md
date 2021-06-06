@@ -1,6 +1,8 @@
 # capstone_498_group_project
 
-## Overview
+In this tutorial, we will help fellow students and colleagues how to build and deploy a computer vision model that detects if someone is wearing a mask or not. We will utilize Google Cloud Platform as our core serverless infrastructure to build, train/model, and deploy an interactive application.
+
+## Summary of the project & strategy
 
 ![image](https://user-images.githubusercontent.com/16366387/120933069-530dfe80-c6ad-11eb-8e74-93a5939797fb.png)
 ![image](https://user-images.githubusercontent.com/16366387/120933089-64570b00-c6ad-11eb-809d-687cc4bbced1.png)
