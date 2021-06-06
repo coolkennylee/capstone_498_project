@@ -76,6 +76,12 @@ For this section you will need to do two things: (1) Create an Azure account and
 
 You can either create a Google Cloud Storage bucket or download the data as a zip file and upload it when we start building the model which will give you the option to create the cloud storage bucket then.
 
+You can type the following in the CloudShell command line to create a new cloud storage bucket or wait until the next step.
+
+gsutil mb -p $PROJECT_ID \ 
+   -c standard    \
+   -l us-central1 \
+   gs://$PROJECT_ID-vcm/
 
 ## Training, modeling, evaluating, and exporting TensorFlow model
 
